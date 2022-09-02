@@ -1,0 +1,5 @@
+"~{(+ 2 3)}"
+"~{    (+ 2 3)   }"
+"2 + 3 = ~{(+ 2 3)}"
+"static : ABC dynamic : ~{"interpolated  ..."}"
+" static ~{' dynamic } more static ~{ '( more dynamic !)} "

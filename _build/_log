@@ -1,0 +1,6 @@
+### Starting build.
+# Target: pc.ml.depends, tags: { extension:ml, file:pc.ml, ocaml, ocamldep, quiet }
+ocamldep.opt -modules pc.ml > pc.ml.depends
+# Target: pc.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:pc.cmo, file:pc.ml, implem, ocaml, quiet }
+ocamlc.opt -c -o pc.cmo pc.ml
+# Compilation successful.
